@@ -1,0 +1,13 @@
+My research involves performing molecular dynamics simulations on proteins. 
+There are a number of ways in which machine learning could be used. One 
+would be the classification of binding modes of a 2 protein simulation. 
+Molecular dynamics generates a lot of data; of most interest in protein 
+binding would probably be the distances between amino acids, or their 
+constituent atoms, between proteins. One can perform PCA on this data and 
+attempt to cluser binding modes. This is most likely a problem for 
+unsupervised learning as we probably do not know what we are looking for 
+beforehand. This is perhaps a good way to look at the data but validating 
+the meaning of the clusters is probably difficult. If the analysis 
+identifies interactions of importance we didn't know of beforehand, it's 
+possible expermental methods like FRET or mutating specific residues could 
+provide some validation.
